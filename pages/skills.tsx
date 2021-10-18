@@ -22,7 +22,7 @@ function skills(): ReactElement {
             Skills 👨‍💻 !
           </h1>
           <h4 className="text-left text-paragraph  font-display text-lg sm:text-2xl  font-normal  italic">
-            Skills
+            Skills lol
           </h4>
         </div>
       </section>

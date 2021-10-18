@@ -13,9 +13,8 @@ const item: Variants = {
 
 const Socialcons: FC<Props> = (props: Props) => {
   const socialicons = [
-    { title: "reddit", link: "https://www.reddit.com/user/Wasabi" },
-    { title: "github", link: "https://www.github.com/vulture990" },
     { title: "twitter", link: "https://www.twitter.com/mohamedSalbi" },
+    { title: "github", link: "https://www.github.com/vulture990" },
   ];
   return (
     <div className={props.className}>

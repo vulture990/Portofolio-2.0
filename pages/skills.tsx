@@ -16,7 +16,7 @@ function skills(): ReactElement {
           rel="stylesheet"
         ></link>
       </Head>
-      <section className="flex  justify-between my-20 md:my-40 flex-wrap">
+      <section className="flex  justify-between my-20 md:my-30 flex-wrap">
         <div>
           <h1 className="text-left font-display md:text-4xl font-bold pb-6 tracking-widest max-w-md">
             Skills 👨‍💻 !

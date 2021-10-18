@@ -19,7 +19,7 @@ function IndexPage(): JSX.Element {
         ></link>
       </Head>
 
-      <section className="flex  justify-between my-20 md:my-40 flex-wrap">
+      <section className="flex  justify-between my-20 md:my-30 flex-wrap">
         <div className="relative  sm:w-2/3 ">
           {/* <div className="flex flex-col h-screen container mx-auto  "> */}
           {/* <Navbar/> */}
@@ -54,7 +54,7 @@ function IndexPage(): JSX.Element {
             }}
           >
             <img
-              src="me.svg"
+              src="mes.png"
               className="hidden sm:inline md:relative rounded-full   shadow-xl"
             />
           </motion.div>

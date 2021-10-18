@@ -18,7 +18,7 @@ export function Hello({ prop }: Props): JSX.Element {
       </h4>
       <h1 className="text-left font-display md:text-4xl font-bold pt-10 tracking-widest max-w-md">
         Contact 📝!
-        <div className="text-white relative bg-black font-bold px-10 py-4 shadow-md rounded-xl full-bold my-3 hover:shadow-xl active:scale-90 transation cursor-pointer duration-150 ">
+        <div className="text-white  bg-black font-bold px-10 py-4 shadow-md rounded-xl full-bold my-3 hover:shadow-xl active:scale-90 transation cursor-pointer duration-150 ">
           <CoolButton
             description="Get In Touch"
             mail="mailto:mohamedsali602@live.com"
@@ -63,7 +63,7 @@ export function Hello({ prop }: Props): JSX.Element {
         <li>
           <h4 className="flex flex-row text-left text-paragraph  font-display text-lg sm:text-2xl  font-normal  italic">
             <div className="w-56">
-              <img src="../gaming1.svg" />
+              <img src="../1gaming.png" />
             </div>
             Mostly L.O.L xD
           </h4>

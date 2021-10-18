@@ -16,7 +16,13 @@ function projects(): ReactElement {
           rel="stylesheet"
         ></link>
       </Head>
-      <div>project</div>
+      <section className="flex  justify-between my-20 md:my-30 flex-wrap">
+      <div>
+      <h4 className="flex flex-row text-left text-paragraph  font-display text-lg sm:text-2xl  font-normal  italic">
+        Projects 🚀 goes here , I'll list them Soon Feel Free to look around in my Github 
+        </h4>
+      </div>
+      </section>
     </>
   );
 }

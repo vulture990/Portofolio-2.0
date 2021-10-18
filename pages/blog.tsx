@@ -16,7 +16,13 @@ function blog(): ReactElement {
           rel="stylesheet"
         ></link>
       </Head>
-      <div>blog here</div>
+      <section className="flex  justify-between my-20 md:my-30 flex-wrap">
+      <div>
+      <h4 className="flex flex-row text-left text-paragraph  font-display text-lg sm:text-2xl  font-normal  italic">
+      📝  Blogs go here , COMMING SOON x)
+        </h4>
+      </div>
+      </section>
     </>
   );
 }

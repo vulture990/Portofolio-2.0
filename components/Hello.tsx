@@ -81,7 +81,7 @@ export function Hello({ prop }: Props): JSX.Element {
             <div className="w-56">
               <img src="../read.svg" />
             </div>
-            Into Nietzsche , Dostoevsky & Franz Kafka
+            Into Carl Jung, Nietzsche , Dostoevsky & Franz Kafka
           </h4>
         </li>
         <li className="">

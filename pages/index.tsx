@@ -44,6 +44,8 @@ function IndexPage(): JSX.Element {
               : "all 0.2s ease-in-out",
           }}
         >
+          
+
           <motion.div
             className=""
             onMouseEnter={() => {

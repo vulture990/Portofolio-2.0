@@ -31,7 +31,7 @@ const rows = [
     "⚛️  Front-End",
     "React,Redux ,NextJS,Gatsby, TailwindCSS,Material-UI,Figma  "
   ),
-  createData("🐱‍💻 Back-End", "Django , NodeJS,Express"),
+  createData("🐱‍💻 Back-End", "Django , NodeJS,Express,Prisma,REST,GRAPHQL"),
   createData("📙 Database", "MongoDB,Postgres,MYSQL,Firebase"),
   createData("📱 GameDev and Mobile", "Unity,Flutter,Blender"),
   createData(

@@ -16,7 +16,8 @@ module.exports = {
       'bannerbg'  :'#00578E',
       'banner':'#119DA4',
       'section':'#EAFAFB',
-      'back':'#D4F5F7'
+      'back':'#D4F5F7',
+      'pur':'#9146FF'
 
     }),
     textColor: {

@@ -20,8 +20,8 @@ export const CoolButton = (props: Props) => {
       animate={{ x: 0, opacity: 1 }}
       transition={{ type: "spring", stiffness: 50 }}
       style={{
-        translateX: isHovered ? -20 :0 ,
-        translateY: isHovered ? -18 :0 ,
+        translateX: isHovered ? -16 :0 ,
+        translateY: isHovered ? -12 :0 ,
         transition: isHovered
           ? "all 0.7s ease-in-out"
           : "all 0.6s ease-in-out",

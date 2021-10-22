@@ -32,7 +32,7 @@ const Navbar: FC = () => {
     <>
       <nav className="flex   items-center  justify-between ">
         <div className="cursor-pointer">
-          <a href="/">
+          <a href="/" aria-label="Vulture Logo" target="_blank" rel="noopener">
             <Logo />
           </a>
         </div>

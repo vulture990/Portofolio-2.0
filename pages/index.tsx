@@ -8,6 +8,7 @@ function IndexPage(): JSX.Element {
 
   return (
     <>
+      <html lang="en"></html>
       <Head>
         <title> Software Enginner | Full Stack Developer</title>
         <link rel="icon" href="/vu.jpg" />
@@ -44,8 +45,6 @@ function IndexPage(): JSX.Element {
               : "all 0.2s ease-in-out",
           }}
         >
-          
-
           <motion.div
             className=""
             onMouseEnter={() => {

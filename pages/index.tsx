@@ -33,18 +33,22 @@ function IndexPage(): JSX.Element {
             <Hello prop="vulture" />
           </motion.div>
         </div>
+        <div className="hidden sm:inline md:relative ">
+        <div className='bg-pur   rounded-lg w-72 h-auto '>
+
         <motion.div
           className="relative cursor-pointer  "
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 50 }}
           style={{
-            y: isHovered1 ? 0 : 30,
+            translateX: isHovered1 ? 10:0 ,
+            translateY: isHovered1 ? -6 :0 ,
             transition: isHovered1
-              ? "all 0.5s ease-in-out"
-              : "all 0.2s ease-in-out",
+            ? "all 0.5s ease-in-out"
+            : "all 0.3s ease-in-out",
           }}
-        >
+          >
           <motion.div
             className=""
             onMouseEnter={() => {
@@ -53,13 +57,17 @@ function IndexPage(): JSX.Element {
             onMouseLeave={() => {
               setHovered1(false);
             }}
-          >
+            >
             <img
               src="mes.png"
-              className="hidden sm:inline md:relative rounded-full   shadow-xl"
+              width='100%'
+              height='100%'
+              className="hidden sm:inline md:relative w-72 h-auto   rounded-lg"
             />
           </motion.div>
         </motion.div>
+              </div>
+          </div> 
       </section>
     </>
   );

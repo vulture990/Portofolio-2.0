@@ -23,6 +23,7 @@ const HambergerBox: FC<Props> = (props:Props) => (
     animate={{ x: 0, opacity: 1 }}
     transition={{ type: "spring", stiffness: 30 }}
   >
+    
     <svg width="25" height="25" viewBox="0 0 23 23">
       <Path
         variants={{

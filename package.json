@@ -15,7 +15,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "framer-motion": "^4.1.17",
-    "next": "^10.0.4",
+    "next": "latest",
     "@material-ui/core": "latest",
     "@material-ui/icons": "4.5.1",
     "next-seo": "^4.28.1",
